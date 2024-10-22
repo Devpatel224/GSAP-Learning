@@ -83,7 +83,8 @@ tl.to("#box2",{
         x:1200,
         backgroundColor:"yellow",
         duration:1.5          
-    })
+})
+
 tl.to("#box3",{
     x:1200,
     scale:0.5,
