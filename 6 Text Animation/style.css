@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+    display: grid;
+    place-items: center;
+}
+h1{  
+    /* background-color: hotpink; */
+    font-size: 90px;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+    
+}
