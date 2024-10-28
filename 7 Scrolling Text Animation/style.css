@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+
+#page1 , #page2 , #page3{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 0;
+}
+
+#move{
+    background-color: #D9FF06;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;    
+}
+.marque{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    /* background-color: green; */
+    flex-shrink: 0;
+
+    transform: translateX(-100%);
+}
+.marque h1{
+    font-size: 4vw;
+    font-weight: 300;
+}
+.marque img{
+    height: 4vw;
+}
