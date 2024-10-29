@@ -1,0 +1,257 @@
+@font-face {
+    font-family: japan;
+    src: url(./3856NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+}
+nav h1{
+    font-size: 2vw;
+    /* display: flex;
+    align-items: center;
+    gap: 2px; */
+}
+nav i{
+    display: inline-block;
+    rotate: 45deg;
+    font-size: 2.6vw;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+nav button{
+    padding:10px 20px;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid #000;
+}
+
+
+.center{
+   /* background-color: ; */
+   height: 80%;
+   width: 100%;
+   display: flex;
+   padding: 4.8vw;
+   flex-wrap: wrap;
+   /* margin-bottom: 3vw; */
+   position: relative;
+}
+.center-part1{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 44%;
+}
+
+
+.center-part1 h1{
+    font-size: 4.4vw;
+    line-height: 1.1;
+    font-family: japan;
+    font-weight: 500;
+    /* background-color: red; */
+    word-spacing: 0;
+}
+.center-part1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9vw;
+}
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 1.5vw;
+    border: none;
+}
+
+.center-part2{
+    /* background-color: hotpin k; */
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img{
+    position: absolute;
+    right: 0;
+    /* height: 100%; */
+    width: auto;       
+}
+
+.sectionbottom{    
+    padding: 2vw 4vw;
+    margin-top: 20px;
+    border: 0px solid black;    
+    width: 100%;  
+}
+
+.images{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;    
+}
+/* .images div{
+    background-color: hotpink;
+    width: 4vw;
+    height: 3vw;
+} */
+.images img{    
+    height:4vw;   
+    width: auto;
+    object-fit: contain;    
+}
+
+.test{
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+    /* margin-top: 30vw; */
+}
+
+.section2{
+    display: block;
+    margin-top: 40px;
+    clear: both;
+}
+
+.section2 .services{
+    
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    
+}
+
+.services h1{
+     background-color: #9AE975;
+     padding: 2px 10px;
+     font-weight: 500;
+     border-radius: 5px;
+     font-size: 35px;
+     font-family: japan;
+}
+.services p{
+    width: 50%;
+    font-size: 15px;
+}
+
+
+.container{
+    height: 86%;
+    width: 100%;
+    padding: 2vw 4vw;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    flex-wrap: wrap;
+    /* background-color: #9AE975; */
+}
+
+.elem{
+    height: 17rem;
+    width: 40rem;
+    border:2px solid black;
+    flex-shrink: 0;
+    border-radius: 50px;
+    /* background-color: skyblue; */
+    box-shadow: 0px 8px 0px black;
+    padding: 40px;
+    display: flex;
+
+}
+
+.elem-part1{
+ height: 100%;
+ width: 50%;
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h2{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: japan;
+    width: 90%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    background-color: #9AE975;
+}
+
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 5px;
+}
+.elem-part1 h4 i{
+    padding: 3px;
+    background-color: black;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 50%;
+}
+
+.black{
+    background-color: #111;
+}
+
+.black .elem-part1 h2{
+    background-color: white;
+}
+
+.black .elem-part1 h4 i{
+    padding: 3px;
+    background-color: white;
+    color: #111;
+    font-weight: 900;
+    border-radius: 50%;
+}
+.black .elem-part1 h4{
+ color: white;
+}
+
+
